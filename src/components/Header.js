@@ -10,7 +10,7 @@ function Header() {
             </MobileSearch>
 
             <MobileMenu>
-                 <img src="/images/mobile-menu.png" />
+                <img src="/images/menu-white.svg " />
             </MobileMenu>
             <NavMenu>
                 <a>
@@ -246,9 +246,27 @@ const MobileSearch = styled.a`
 
 `
 
-const  MobileMenu = styled(MobileSearch)`
-    margin-left: 90%;
+const  MobileMenu = styled.a`
+visibility:hidden;
+
+
+@media only screen and (max-width: 768px) {
+    visibility: visible;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding: 2px 0px;
+    align-items; center;
+    position: absolute;
+    width: 10px;
+    right: 0;
+    top: 0;
+    width: 30px;
     
+    
+   
+}
 `
 
 
