@@ -261,7 +261,7 @@ visibility:hidden;
     right: 0;
     top: 0;
     width: 30px;
-    margin-top: -4px;
+    margin-top: -8px;
     
     
    
