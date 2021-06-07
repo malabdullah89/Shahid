@@ -43,6 +43,7 @@ export default ImgSlider
 const Carousel = styled(Slider)`
     overflow: hidden;
     height: 100%;
+    background-color:linear-gradient(90deg,rgba(50,60,76,0),rgba(50,60,76,.6) 50%,rgba(50,60,76,.9));
    
     
    
