@@ -5,6 +5,13 @@ function Header() {
     return (
         <Nav>
             <Logo src="/images/shahid-logo.svg" />
+            <MobileSearch>
+                 <img src="/images/search-icon.svg" />
+            </MobileSearch>
+
+            <MobileMenu>
+                 <img src="/images/mobile-menu.png" />
+            </MobileMenu>
             <NavMenu>
                 <a>
                     <span>الرئيسية</span>
@@ -216,10 +223,32 @@ const SideMenu = styled.div`
 
     }
 
+`
 
-  
 
+const MobileSearch = styled.a`
+    visibility:hidden;
 
+@media only screen and (max-width: 768px) {
+    visibility: visible;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 2px 0px;
+    align-items; center;
+    position: absolute;
+    width: 30px;
+    left: 0;
+    top: 0;
+   
+}
+
+`
+
+const  MobileMenu = styled(MobileSearch)`
+    margin-left: 90%;
+    
 `
 
 
