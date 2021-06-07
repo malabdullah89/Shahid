@@ -257,7 +257,6 @@ visibility:hidden;
     display: flex;
     flex-direction: column;
     margin-right: 20px;
-    padding: 2px 0px;
     align-items; center;
     position: absolute;
     width: 10px;
