@@ -256,12 +256,12 @@ visibility:hidden;
     display: flex;
     flex-direction: column;
     margin-right: 20px;
-    padding: 2px 0px;
     position: absolute;
     width: 10px;
     right: 0;
     top: 0;
     width: 30px;
+    margin-top: -4px;
     
     
    
