@@ -58,6 +58,15 @@ const Container = styled.div`
     h2 {
         color: white;
     }
+
+    @media only screen and (max-width: 768px) {
+
+        h2 {
+            font-size: 15px;
+        }      
+       
+       
+    }
 `
 
 const Content = styled.div`
@@ -96,7 +105,7 @@ const Wrap = styled.div`
 
         
         img {
-            width: 200px;
+            width: 150px;
         }
                
        
