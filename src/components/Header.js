@@ -116,6 +116,7 @@ const Logo = styled.img`
 
         width: 92px;
         height: 18px;
+        position: relative;
         
     }
     
