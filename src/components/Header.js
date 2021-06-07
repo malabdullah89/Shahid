@@ -93,7 +93,7 @@ const Nav = styled.nav`
     @media only screen and (max-width: 768px) {
 
         
-        flex-direction: column;
+       flex-direction: column;
        align-items: center;
        
        
@@ -237,7 +237,6 @@ const MobileSearch = styled.a`
     flex-direction: column;
     margin-left: 20px;
     padding: 2px 0px;
-    align-items; center;
     position: absolute;
     width: 30px;
     left: 0;
@@ -258,12 +257,11 @@ visibility:hidden;
     flex-direction: column;
     margin-right: 20px;
     padding: 2px 0px;
-    align-items; center;
     position: absolute;
     width: 10px;
     right: 0;
     top: 0;
-    width: 28px;
+    width: 30px;
     
     
    
