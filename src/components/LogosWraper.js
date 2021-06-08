@@ -3,7 +3,8 @@ import styled from 'styled-components'
 
 function LogosWraper() {
     return (
-        <Container>
+    <Container>
+        <LogodWraper>
             <Wraper>
                 <img src="/images/Amr-iklaa-logo.png" />
             </Wraper>
@@ -23,15 +24,42 @@ function LogosWraper() {
             <Wraper>
                 <img src="/images/Bayt-Al-Thol_Logo.png" />
             </Wraper>
-        </Container>
+        </LogodWraper>
+
+        <GradientColor>
+
+        </GradientColor>
+
+    </Container>
     )
 }
 
 export default LogosWraper
 
-const Container = styled.div`
+const GradientColor = styled.div`
+    display: flex;
+    width: 100%;
     position: absolute;
-    bottom: 0;
+    margon-top: 2000px;
+    top:0;
+    height: 760px;
+    background-image: linear-gradient(
+        180deg
+        ,rgba(50,60,76,0),rgba(50,60,76,.3) 60%,rgba(50,60,76,.7) 70%,#323c4c);
+    
+
+
+`
+
+
+const Container = styled.div`
+    
+    
+    `
+
+
+const LogodWraper = styled.div`
+    
     display: flex;
     grid-gap: 70px;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -44,15 +72,20 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     z-index: 1;
-    background-image: linear-gradient(
-    180deg
-    ,rgba(24,29,37,0),rgba(24,29,37,.2) 30%,rgba(24,29,37,.7) 70%,#181d25);
+    
+   
+   
+
+
+   
+
+
   
 }
 
 @media only screen and (max-width: 768px) {
 
-    visibility:hidden;
+    display: none;
 }
 
 `

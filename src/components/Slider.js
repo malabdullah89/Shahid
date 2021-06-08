@@ -10,7 +10,8 @@ function ImgSlider() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true
+        autoplay: true,
+        
     }
     return (
 
@@ -75,7 +76,7 @@ function ImgSlider() {
 export default ImgSlider
 
 const Container = styled.div`
-
+    
 
 `
 
@@ -85,6 +86,12 @@ const Carousel = styled(Slider)`
     overflow: hidden;
     height: 100%;
     width: 100%;
+    
+    
+    
+    
+   
+    
 
     @media only screen and (max-width: 768px) {
 
@@ -115,12 +122,17 @@ const Wrap = styled.div`
     cursor: pointer;
     height: 100%;
     width: 100%;
+    
+    
+    
    
     img {
         
         width: 100%;
         height: 100%;
         transition-duration: 300ms;
+      
+        
        
     }
 

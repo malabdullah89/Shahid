@@ -128,15 +128,16 @@ const Logo = styled.img`
 const NavMenu = styled.div`
     display: felx;
     flex 1;
-    margin-right: 30px;
+   
     align-items: center;
     padding: 5px 0;
+    
 
     a {
         cursor: pointer;
         display: flex;
         font-size: 15px;
-        margin-left: 20px;
+        margin-left: 10px;
         font-weight: bold;
 
         &:hover {
@@ -158,7 +159,7 @@ const NavMenu = styled.div`
 
     @media only screen and (max-width: 768px) {
 
-        visibility:hidden;
+        display: none;
     }
 
 `
@@ -170,12 +171,12 @@ const SideMenu = styled.div`
     a {
         display: flex;
         cursor: pointer;
-        margin-left: 10px;
+        margin-left: 15px;
         font-size: 15px;
 
         @media only screen and (max-width: 768px) {
 
-            visibility:hidden;
+            display: none;
         }
 
         

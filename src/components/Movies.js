@@ -51,21 +51,34 @@ function Movies() {
 export default Movies
 
 const Container = styled.div`
-    
+  
+    display: block;
     direction: rtl;
+    width:100%;
+    height: 100%;
     position: absolute;
     bottom: 0;
-    width:100%;
-   
+    transform: translate3d(0%, 655px, 0px);
+    z-index: 1;
+    padding: 10px 10px;
+
     
    
-    
-    
-    
    
     
+ 
+  
+   
+   
     h2 {
+        
         color: white;
+        margin: 0 3%;
+        line-height: 2.2916666667vw;
+        font-size: 1.5277777778vw;
+        display: flex;
+        right: 0;
+        
     }
 
     @media only screen and (max-width: 768px) {
@@ -80,17 +93,22 @@ const Container = styled.div`
             vertical-align: middle;
             color: #fff;
             
+             
         }      
-       
-       
+        
     }
 `
 
 const Content = styled.div`
 
-    display: grid;
-    grid-gap: 25px;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    position: relative;
+    grid-gap: 2px;
+    display: flex;
+    width: 100%;
+    
+    
+    
+    
 
     @media only screen and (max-width: 768px) {
 
@@ -108,6 +126,8 @@ const Content = styled.div`
 const Wrap = styled.div`
     margin-top: 20px;
     margin-right: 10px;
+    
+    
    
 
     img {
