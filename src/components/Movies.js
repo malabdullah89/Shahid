@@ -23,7 +23,7 @@ function Movies() {
            </Wrap>
 
            </Content>
-            <Exculsive>
+            {/* <Exculsive>
            <h2>افلام اجنبية حصرية </h2> 
            <Content>
            <Wrap>
@@ -43,7 +43,7 @@ function Movies() {
            </Wrap>
 
             </Content>
-           </Exculsive>
+           </Exculsive> */}
         </Container>
     )
 }
@@ -51,10 +51,19 @@ function Movies() {
 export default Movies
 
 const Container = styled.div`
+    
     direction: rtl;
-    margin-right: 20px;
-    margin-top: 10px;
-
+    position: absolute;
+    bottom: 0;
+    width:100%;
+   
+    
+   
+    
+    
+    
+   
+    
     h2 {
         color: white;
     }
@@ -62,7 +71,15 @@ const Container = styled.div`
     @media only screen and (max-width: 768px) {
 
         h2 {
-            font-size: 15px;
+            margin: 0;
+            width: 100%;
+            display: flex;
+            white-space: nowrap;
+            font-weight: 700;
+            align-content: center;
+            vertical-align: middle;
+            color: #fff;
+            
         }      
        
        
