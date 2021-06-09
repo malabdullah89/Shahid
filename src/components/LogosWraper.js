@@ -6,7 +6,7 @@ function LogosWraper() {
     <Container>
         <LogodWraper>
             <Wraper>
-                <img src="/images/Amr-iklaa-logo.png" />
+                <img src="/images/Amr-Iklaa-Logo.png" />
             </Wraper>
 
             <Wraper>
