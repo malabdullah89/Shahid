@@ -99,15 +99,11 @@ const Nav = styled.nav`
        
        
     }
-    
-    
-    
-    
-    
-    
 
-
+    
 `
+
+
 
 const Logo = styled.img`
     cursor: pointer;
@@ -193,7 +189,7 @@ const SideMenu = styled.div`
 
             @media only screen and (max-width: 768px) {
 
-                visibility:hidden;
+                display: none;
             }
         }
 
